@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.wrapper{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgb(0, 0, 0, 0.72),rgba(0, 0, 0, 0.7)), url(draw.webp);
+    background-size: cover;
+    background-position: center;
+    align-content: center;
+}
+form{
+    width: 400px;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 30px 20px;
+    transition: .42s;
+    border-radius: 20px;
+    
+}
+form h1{
+    color: #000000;
+    margin: 8px;
+    font-size: 28px;
+}
+form .int{
+    width: 100%;
+    position: relative;
+    margin:  25px 0;
+}
+.logo{
+    cursor: pointer;
+}
+.int input{
+    width: 100%;
+    padding: 10px 10px 10px 40px;
+    outline: none;
+    border: 1px solid #000;
+    border-radius: 20px;
+    font-size: 17px;
+}
+.int .bx{
+    position: absolute;
+    left: 9px;
+    top: 10px;
+    font-size: 20px;
+}
+
+.sign input{
+    width: 100%;
+    padding: 13px;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    font-size: 17px;
+    background-color: green;
+    color: #fff000;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.sign input:hover{
+    background-color: transparent;
+    color: green;
+    border: 2px solid #fff000;
+    transition: .4s;
+    transform: scale(0.9);
+}
+.sign1{
+    margin-bottom: 10px;
+}
+.sign1 p{
+    color: green;
+}
+.sign1 a{
+    color:  green;
+    text-decoration: none;
+}
+.sign1 a:hover{
+    text-decoration: underline;
+}
+form h5{
+    font-size: 20px;
+    margin-bottom: 7px;
+    
+}
+
+.more{
+    background-color: #bdbcbc;
+    padding: 13px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    
+}
+.more img{
+    margin-right: 20px;
+}
+
+
+/*----- Log In ----- */
+
+.box{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -17px;
+    margin-bottom: 23px;
+}
+.box p{
+    color: green;
+    
+}
+.box a{
+    text-decoration: none;
+    color: green;
+}
+.box a:hover{
+    text-decoration: underline;
+}
